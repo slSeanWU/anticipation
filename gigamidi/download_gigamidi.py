@@ -7,7 +7,7 @@ import symusic
 import numpy as np
 
 CACHE_DIR = "/home/slseanwu/.hf_cache"
-OUT_DIR = "/shared/datasets/gigamidi/raw_huggingface"
+OUT_DIR = "/scratch/shared/datasets/gigamidi/raw_huggingface"
 
 
 class NumpyEncoder(json.JSONEncoder):
